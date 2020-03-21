@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    background-image: url(https://wallpapercave.com/wp/wp2237401.jpg);
+    background-size: contain;
+}
+
+nav .navbar {
+    background-color: black;
+}
+
+.navbar h1{
+    font-family: 'Trebuchet MS' !important;
+    font-weight: bold;
+    margin: 20 px;
+    text-align: center;
+    background: green;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.navbar-brand{
+    color: #ffffff !important;
+}
+
+.navbar-brand {
+    justify-content: right;
+}
+
+.card{
+    margin-top: 40px;
+}
+
+.card-body h2 {
+    font-family: 'Trebuchet MS' !important;
+    font-weight: bold;
+    background: green;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+    width: 250px;
+    height: 200px;
+}
+.social-media {
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+a {
+    font-size: 17px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.navbar-nav {
+    flex-direction: row !important;
+}
+
+.nav-item{
+    margin: 10px;
+    display: inline-block;
+}
+
+.card-body {
+    background-color: lightgray;
+}
+
+footer .footer-copyright {
+    color: #ffffff;
+    background: #666666;
+    border-top: 5px solid green;
+    font-size: 10px;
+    font-family: 'Trebuchet MS';
+}
+
+.btn-primary {
+    background-color: #59AAA5;
+}
+
+@media (max-width: 767px) {
+    .card {
+        width: 50%;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .card {
+        width: 80%;
+    }
+}
+@media (min-width: 1025px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar h1 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-item {
+        width: 50%;
+    }
+}
