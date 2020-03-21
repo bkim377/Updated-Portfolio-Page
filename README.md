@@ -5,4 +5,4 @@ My repository for my updated portfolio page.  Contains links to my GitHub &amp; 
 
 2) Link to deployed page: https://bkim377.github.io/Updated-Portfolio-Page/
 
-3) Screenshot: ![Updated Portfolio screenshot](UpdatedPortfolio.png)
+3) Screenshot: ![Updated Portfolio screenshot](assets/imgs/UpdatedPortfolio.png)
